@@ -1,0 +1,23 @@
+{
+  "name": "slackly",
+  "version": "1.0.0",
+  "description": "An integration between Slack and Insightly",
+  "main": "lib/slacklybot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/govex/slack-insightly.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/govex/slack-insightly/issues"
+  },
+  "homepage": "https://github.com/govex/slack-insightly#readme",
+  "dependencies": {
+    "slackbots": "^0.5.1",
+    "sqlite3": "^3.1.1"
+  }
+}
