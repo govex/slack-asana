@@ -1,20 +1,19 @@
 'use strict';
 
-var NorrisBot = require('../lib/norrisbot');
+var InsightBot = require('../lib/insightbot');
 
 var token = process.env.BOT_API_KEY;
 var username = process.env.USERNAME;
 var dbPath = 'data/norrisbot.db';
 var name = 'insightly';
 
-var norrisbot = new NorrisBot({
+var InsightBot = new InsightBot({
     token: token,
     username: username,
     dbPath: dbPath,
     name: name
 });
 
-
-norrisbot.run();
+InsightBot.run();
 
 
